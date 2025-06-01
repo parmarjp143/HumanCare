@@ -1,0 +1,318 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+@media screen and (max-width:1100px) {
+    .apo-btn
+    {
+      margin: 0;
+    }
+    
+}
+/* =============== */
+.panal-of-abt-page
+{
+    background-image: url(abt-imges/breadcrumb.jpg);
+    background-size: cover;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+}
+.for-heading-of-about
+{
+    height: 5.5rem;
+    width: 25rem;
+    text-align: center;
+    margin: 0 10rem;
+}
+.home-show-about-page a
+{
+    text-decoration: underline;
+    transition: ease 0.5s;
+}
+.home-show-about-page a:hover
+{
+    color: #00c5f1;
+}
+.home-show-about-page
+{
+    font-size: 1.3rem;
+}
+.about-us-page-head p
+{
+    font-size: 2rem;
+    font-weight: 750;
+    color: #004861;
+}
+@media screen and (max-width:1050px) {
+    .panal-of-abt-page
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .for-heading-of-about
+    {
+        margin: 0;
+    }
+}
+/* ============== */
+.opration-img-and-datas-abt
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+}
+.data-about-opration-doc-abt
+{
+    height: auto;
+    width: 35rem;
+    margin: 0 2rem;
+}
+.male-female-doc-img
+{
+    background-image: url(abt-imges/chief_doctor_700x800.jpg);
+}
+.img-of-opration-p-doc
+{
+    height: 35rem;
+    width: 30rem;
+    background-image: url(abt-imges/emergency_help_700x800.jpg);
+    background-size: cover;
+    margin: 0 2rem;
+}
+.welcome-to-service-abt
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem auto;
+}
+.vd-img-service
+{
+    height: 25rem;
+    width: 35rem;
+    margin: 0 2rem;
+    background-image: url(abt-imges/video-1.png);
+    background-size:100% 100%;
+}
+.data-of-service
+{
+    height: auto;
+    width: 30rem;
+    margin: 0 2rem;
+}
+.mordan-medical-ser
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* ============ */
+.data-details-and-time-of-hospital
+{
+background-color: #f8f9fb;
+height: auto;
+width: auto;
+margin: 4rem auto;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+#logo-head
+{
+    font-size: 3rem;
+}
+.information-about-this-hospital
+{
+    height: auto;
+    width: 44rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 4rem 1.5rem;
+}
+.details-abt-icon,#logo-head
+{
+    margin: 0 1rem;
+}
+.info-dta-abt-hpt
+{
+    height: 10rem;
+    width: 20rem;
+    margin: 0.6rem;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.time-table-of-this-hospital
+{
+    background-color: #00c5f1;
+    border-radius: 0.5rem;
+    height: 33rem;
+    width: 20rem;
+    margin: 0 1.5rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+#bg-fnt
+{
+    font-size: 1.2rem;
+}
+.time-table-of-this-hospital hr
+{
+    width: auto;
+    margin: 0 1rem;
+}
+.time-table-routin
+{
+    font-size: 1.1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+@media screen and (max-width:727px) {
+    
+    .information-about-this-hospital
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+/* =============== */
+.cretified-doctors-list-img-and-info
+{
+    margin: 4rem auto;
+    height: auto;
+    width: 100%;
+}
+.heading-of-cer-doc p
+{
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.lrm-extra-lines-of-doc p
+{
+    width: 35rem;
+    text-align: center;
+    margin: 0 auto;
+}
+/* =========== */
+.photo-of-certified-femal-doctors
+{
+    background-image: url(abt-imges/image-07.png);
+    background-size: cover;
+    height: 25rem;
+    width: 60rem;
+    margin: 0 auto;
+}
+/* =============== */
+.last-part-of-abt-us
+{
+    background-image: url(abt-imges/footer-bg.jpg);
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* ============= */
+.contant-of-footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem auto;
+}
+.container-contant-ftr
+{
+    height: 15rem;
+    width: 15rem;
+    margin: 0 2rem;
+}
+.line
+{
+    border: 1px solid whitesmoke;
+    height: 1px;
+    width: 85rem;
+    opacity: 0.5;
+}
+#clr-ftr
+{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+#ftr-cntnt
+{
+    color: #fff;
+    font-weight: 350;
+}
+#for-line-icn
+{
+    display: flex;
+    color: #fff;
+}
+/* ======== */
+#sme-tdc
+{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 550;
+}
+#ftr-cntnt-clr
+{
+    color: #00c5f1;
+    font-size: 1.5rem;
+}
+.container-contant-ftr pre
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+/* ======== */
+@media screen and (max-width:1410px) {
+    .last-part-of-abt-us
+    {
+        height: auto;
+
+    }
+    .line
+    {
+        margin: 2rem auto;
+        width: 80vw;
+    }
+}
+@media screen and (max-width:350px) {
+    
+    .info-dta-abt-hpt
+    {
+        margin: 0.6rem auto;
+    }
+
+    .time-table-of-this-hospital
+    {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,10 @@
+.o-dpt-first-container
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+}

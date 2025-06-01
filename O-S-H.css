@@ -1,0 +1,354 @@
+.our-ser-details
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5rem auto;
+}
+.headings-of-ser
+{
+    height:40rem;
+    width: 20rem;
+    margin: 0 2rem;
+}
+.complete-details-about-service
+{
+    height: auto;
+    width: 45rem;
+    margin: 0 2rem;
+    text-align: left;
+}
+.extra-text,.extra-text-t
+{
+    font-weight: 350;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+.list-text-area li
+{
+    font-weight: 350;
+    list-style:circle;
+    margin: 0.5rem 0;
+
+}
+
+.copy-apo-btn
+{
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #00c5f1;
+    transition: ease 0.5s;
+    margin: 1rem 0;
+}
+.copy-apo-btn:hover
+{
+ color: #fff;
+}
+/* =========== */
+.container-with-info-abt-trat
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.price-and-data-m-care
+{
+    height: auto;
+    width: 20rem;
+    border: 1px solid rgba(0, 0, 0, 0.323);
+    margin: 2rem 2rem;
+    text-align: center;
+    border-radius: 0.2rem;
+}
+.nme-of-dpt-nme
+{
+    font-size: 4.5rem;
+    color: #00c5f1;
+    margin: 1rem auto;
+}
+#sme-nme-p
+{
+    font-size: 1.1rem;
+    font-weight: 350;
+    color: #004861;
+}
+.price-of-dpt
+{
+    color: #004861;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.same-btn-p
+{
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 0.3rem;
+    background-color: transparent;
+    margin: 2rem auto;
+    transition: ease 0.5s;
+}
+.same-btn-p:hover
+{
+    background-color: #00c5f1;
+    border: none;
+    color: #fff;
+}
+/* ============= */
+.contant-of-os
+{
+    width: 20rem;
+    height: 3rem;
+    margin: 1rem auto;
+    border: 1px rgba(0, 0, 0, 0.452) solid;
+    background-color: transparent;
+    transition: ease ;
+    border-radius: 0.3rem;
+}
+.contant-of-os:hover
+{
+    background-color:#f8f9fb;
+    border-right: 0.1rem solid #00c5f1;
+    border-left: 0.1rem solid #00c5f1;
+}
+/* ----------- */
+.heading
+{
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #004861;
+} 
+/* ======= */
+.imge-container
+{
+    height: 20rem;
+    width: 45rem;
+    border-radius: 0.3rem;
+    overflow: hidden;
+}
+.imge-container img
+{
+   height: 20rem;
+   width:45rem;
+}
+.list-text-area
+{
+    display: flex;
+}
+
+.lrm-extra-lines-of-doc
+{
+    text-align: center;
+    height: auto;
+    width:40rem;
+    margin: 0 auto;
+}
+/* ===== */
+.photo-of-certified-femal-doctors
+{
+    background-image: url(abt-imges/image-07.png);
+    background-size: cover;
+    height: 25rem;
+    width: 60rem;
+    margin: 0 auto;
+}
+@media screen and (max-width:970px) {
+
+    .photo-of-certified-femal-doctors
+{
+    background-image: url(abt-imges/image-07.png);
+    background-size:cover;
+    height: 20rem;
+    width: 100vw;
+}
+    
+}
+/* ===== */
+@media screen and (max-width:1168px) {
+    .headings-of-ser
+    {
+        height: auto;
+        width: auto;
+        margin: 4rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .contant-of-os
+    {
+        width: 45rem;
+    }
+}
+
+@media screen and (max-width:770px) {
+    
+    .contant-of-os
+    {
+        width: 30rem;
+    }
+
+    .complete-details-about-service
+    {
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+
+    .heading
+    {
+        font-size: 2rem;
+    }
+    .extra-text,.extra-text-t
+    {
+        font-size: 1rem;
+        width: 40rem;
+    }
+
+    .imge-container
+    {
+        height: 18rem;
+        width: 42rem;
+        margin: auto auto;
+    }
+
+    .heading-of-cer-doc p
+    {
+        font-size: 2.1rem;
+    }
+    .lrm-extra-lines-of-doc
+    {
+        width: 35rem;
+    }
+    .list-text-area
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width:680px) {
+
+    .imge-container
+    {
+        height: 18rem;
+        width: 40rem;
+    }
+    
+}
+@media screen and (max-width:660px) {
+
+
+    .extra-text,.extra-text-t
+    {
+        font-size: 1rem;
+        width: 30rem;
+        margin: 1rem auto;
+    }
+
+    .imge-container
+    {
+        height: 18rem;
+        width: 30rem;
+    }
+
+    .heading-of-cer-doc p
+    {
+        font-size: 1.9rem;
+    }
+    .lrm-extra-lines-of-doc
+    {
+        width: 30rem;
+    }
+
+    .nme-of-dpt-nme
+{
+    font-size: 4rem;
+    color: #00c5f1;
+    margin: 1rem auto;
+}
+#sme-nme-p
+{
+    font-size: 1rem;
+    font-weight: 350;
+    color: #004861;
+}
+.price-of-dpt
+{
+    color: #004861;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.same-btn-p
+{
+    height: 2rem;
+    width: 8rem;
+    border-radius: 0.3rem;
+    background-color: transparent;
+    margin: 2rem auto;
+    transition: ease 0.5s;
+}
+}
+@media screen and (max-width:491px) {
+    
+
+    .contant-of-os
+    {
+        width: 20rem;
+    }
+
+    .heading
+    {
+        font-size: 1.5rem;
+    }
+
+    .extra-text,.extra-text-t
+    {
+        font-size: 0.9rem;
+        width: 20rem;
+        margin: 1rem auto;
+    }
+
+    .imge-container
+    {
+        height: 18rem;
+        width: 20rem;
+    }
+    .imge-container img
+    {
+        height: 18rem;
+        width: 20rem;
+    }
+
+    .copy-apo-btn
+    {
+        height: 2.2rem;
+        width: 9rem;
+        font-size: 0.8rem;
+    }
+
+    .heading-of-cer-doc p
+    {
+        font-size: 1.4rem;
+    }
+    .lrm-extra-lines-of-doc
+    {
+        width: 20rem;
+        font-size: 0.9rem;
+    }
+
+    .photo-of-certified-femal-doctors
+    {
+        width:100%;
+        background-size: 100% 100%;
+        
+    }    
+
+}

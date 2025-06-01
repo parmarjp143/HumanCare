@@ -1,0 +1,141 @@
+
+.main-container-of-apointment
+{
+    height: auto;
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem auto;
+    flex-wrap: wrap;
+}
+.heading
+{
+    font-size: 2.4rem;
+    font-weight: 740;
+    color: #004861;
+}
+.all-information-abt-apointment
+{
+    height: auto;
+    width: 40rem;
+    margin: 0 2rem;
+}
+.all-inputs-for-apointment
+{
+    margin: 3rem auto;
+}
+.form-select
+{
+    margin: 1.1rem auto;
+}
+.request-apointment-btn
+{
+    margin: 2rem auto;
+    height: 3rem;
+    width: 40rem;
+    border: none;
+    background-color: #00c5f1;
+    border-radius: 0.5rem;
+    transition: ease 0.5s;
+}
+.request-apointment-btn:hover
+{
+    color: #fff;
+}
+/* ================ */
+.extra-items-of-apt
+{
+    height: auto;
+    width: auto;
+    margin: 0 2rem;
+}
+.small-information
+{
+    height: 20rem;
+    width: 22rem;
+    margin: 2rem auto;
+}
+/* ====== */
+#hd-smf
+{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.small-information hr
+{
+    width: auto;
+    margin: 0 2rem;
+}
+.doc-smf-dta
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+}
+#nme-doc
+{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+#ifo-abt-smf-doc
+{
+    font-size: 1rem;
+    font-weight: 350;
+}
+.phto-of-doc
+{
+    background-image: url(photos/doctor-1.jpg);
+    background-size: cover;
+    height: 6rem;
+    width: 6rem;
+}
+.deatails-about-working-time
+{
+    background-color: #00c5f1;
+    height: 30rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+}
+.extra-items-of-apt button
+{
+    height: 2.2rem;
+    width: 8rem;
+    border-radius: 0.5rem;
+    background-color: #00c5f1;
+    border: none;
+    transition: ease 0.5s;
+}
+.extra-items-of-apt button:hover
+{
+    color: #fff;
+}
+@media screen and (max-width:700px) {
+    
+    .all-information-abt-apointment
+    {
+        width: auto;
+    }
+    .request-apointment-btn
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width:1135px) {
+    .extra-items-of-apt
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:381px) {
+    
+    .small-information
+    {
+        width: auto;
+    }
+}

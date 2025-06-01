@@ -1,0 +1,129 @@
+.all-doc-and-their-information
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+}
+.doctor-details-img
+{
+    height: 28rem;
+    width: 20rem;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    margin: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.doc-pht
+{
+    overflow: hidden;
+    height: 16rem;
+    width: 15rem;
+    
+}
+.doc-pht img
+{
+    height: 16rem;
+    width: 15rem;
+}
+.doc-nme
+{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #00c5f1;
+}
+.doc-dpt-nme
+{
+    color: #000;
+    font-size: 1rem;
+}
+.fr-info-btn
+{
+    height: 2.2rem;
+    width: 9rem;
+    border-radius: 0.5rem;
+    background-color: #00c5f1;
+    border: none;
+    transition: ease 0.5s;
+}
+.fr-info-btn:hover
+{
+    color: #fff;
+}
+/* ============= */
+@media screen and (max-width:895px) {
+    
+    .doctor-details-img
+    {
+        margin: 2rem 2rem;
+    }
+}
+@media screen and (max-width:895px) {
+    
+    .doctor-details-img
+    {
+        margin: 2rem 0.5rem;
+    }
+}
+.swiper-slide
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ======= */
+.swiper-slide p
+{
+    height: auto;
+    width: 17rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+.ppl-img-nme
+{
+    height: 4rem;
+    width: 15rem;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ppl-phto
+{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.ppl-phto img
+{
+    height: 4rem;
+    width: 4rem;
+}
+.ppl-nme
+{
+    font-size: 1.2rem;
+}
+.coma-symbol
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: end;
+}
+.mn-smbl
+{
+    height: 4rem;
+    width: 4rem;
+    background-image: url(photos/mark-symbol.png);
+    background-size: cover;
+}
+
+
